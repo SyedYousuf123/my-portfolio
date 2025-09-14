@@ -1,0 +1,224 @@
+{
+  "Languages": {
+    "name": "Idiomas"
+  },
+  "SocialMedia": {
+    "LinkedIn": {
+      "href": "https://www.linkedin.com/in/syed-yousuf-ahmed-0a9078250/"
+    },
+    "Email": {
+      "href": "mailto:contato@luizgustavoalves.dev",
+      "name": "contato@luizgustavoalves.dev"
+    }
+  },
+  "HomePath": {
+    "path": "/br"
+  },
+  "HeaderItems": {
+    "About": {
+      "name": "SOBRE",
+      "path": "/br/about"
+    },
+    "Experience": {
+      "name": "EXPERIÊNCIA",
+      "path": "/br/experience"
+    },
+    "Projects": {
+      "name": "PROJETOS",
+      "path": "/br/projects"
+    },
+    "Contact": {
+      "name": "CONTATO",
+      "path": "/br/contact"
+    }
+  },
+  "Footer": {
+    "copyright": "2025 Luiz Gustavo Alves - Todos os Direitos Reservados"
+  },
+  "HomePage": {
+    "Hero": {
+      "title": "Olá! Sou Luiz Gustavo Alves",
+      "content": "Desenvolvedor de Software com experiência em construir aplicações escaláveis e modernas",
+      "CTAs": {
+        "Projects": {
+          "name": "Projetos",
+          "path": "/br/projects"
+        },
+        "Contact": {
+          "name": "Contato",
+          "path": "/br/contact"
+        }
+      }
+    },
+    "Skills": {
+      "title": "Serviços e Habilidades",
+      "content": "Ofereço serviços para construção e manutenção de sites, otimização da presença digital do seu negócio e hospedagem de sites com email profissional e domínios customizados",
+      "FrontEnd": {
+        "title": "Desenvolvimento Frontend",
+        "content": "Construção de interfaces completas, modernas e responsivas para todos os tipos de dispositivos."
+      },
+      "BackEnd": {
+        "title": "Desenvolvimento Backend",
+        "content": "Construção de sistemas seguros, escaláveis e com alta performance, desenvolvimento de APIs, integrações com banco de dados, microsserviços, Cron-Jobs, Inteligência Artificial (IA)."
+      },
+      "Maintenance": {
+        "title": "Manutenção & Monitoramento",
+        "content": "Correção de erros, suporte técnico, monitoramento do desempenho da aplicação e desenvolvimento de novas funcionalidades que atendam as necessidades dos clientes."
+      },
+      "SoftwareTest": {
+        "title": "Testes de Software",
+        "content": "Testes Ponta-Ponta, Testes Unitários e construção de cenários de alta demanda de requisições (Testes de Carga)."
+      },
+      "PerformanceDigitalPresence": {
+        "title": "Performance & Presença Digital",
+        "content": "Otimização de velocidade e visibilidade nas páginas de busca, SEO, campanhas de marketing e captura de leads."
+      },
+      "WebHosting": {
+        "title": "Hospedagem",
+        "content": "Hospedagem de sites, configurações de domínio e subdomínios, criação de email profissional."
+      }
+    }
+  },
+  "About": {
+    "title": "Sobre",
+    "content": "Conheça mais sobre meu perfil e habilidades",
+    "MainInfo": {
+      "title": "Sobre mim",
+      "content_1": "Meu nome é Luiz Gustavo Alves, sou Desenvolvedor de Software e Bacharel em Ciência da Computação pela UNIFESP. Tenho 5 anos de experiência na área da programação e 3 anos de experiência na área de Desenvolvimento de Software.",
+      "content_2": "Minha trajetória acadêmica permitiu consolidar meus conhecimentos em Algoritmos, Estrutura de Dados, Desenvolvimento de Sistemas e Banco de Dados os quais aplico na construção de sistemas eficientes e modernos. Crio soluções de impacto utilizando Typescript, NestJs, Next.js, React e Tailwind.",
+      "content_3": "Atualmente trabalho como Desenvolvedor Full Stack na MotorSync Sistemas, sou responsável por trabalhar no ciclo completo de desenvolvimento de software, desde a implementação de novas funcionalidades, realização de testes e manutenção do código com objetivo de melhorar a performance e escalabilidade dos sistemas. A nossa equipe atua em aplicações completas de gerenciamento de conteúdo para gerir e atualizar sites de revendas automotivas em tempo real."
+    },
+    "Education": {
+      "title": "Educação",
+      "University": {
+        "title": "Bacharel em Ciência da Computação",
+        "content": "UNIFESP - Universidade Federal de São Paulo",
+        "date": "Março 2020 - Dezembro 2025",
+        "location": "Brasil, São José dos Campos"
+      },
+      "Bootcamp": {
+        "title": "Curso de Programação Full Stack",
+        "content": "Driven Education",
+        "date": "Março 2023 - Dezembro 2023",
+        "location": "Brasil, São Paulo"
+      }
+    },
+    "Skills": {
+      "title": "Habilidades",
+      "Languages": {
+        "title": "Linguagens"
+      },
+      "Frameworks": {
+        "title": "Frameworks/Bibliotecas"
+      },
+      "Databases": {
+        "title": "Banco de Dados"
+      },
+      "Microservices": {
+        "title": "Microserviços/DevOps"
+      },
+      "Tests": {
+        "title": "Teste de Software"
+      }
+    },
+    "Concepts": {
+      "title": "Conceitos",
+      "content_1": "Estrutura de Dados",
+      "content_2": "Projeto e Análise de Algoritmos",
+      "content_3": "Inteligência Artificial",
+      "content_4": "Programação Orientada a Objetos",
+      "content_5": "Redes de Computadores",
+      "content_6": "Sistemas Distribuídos",
+      "content_7": "Banco de dados",
+      "content_8": "Segurança Computacional",
+      "content_9": "Sistemas Operacionais",
+      "content_10": "Engenharia de Software",
+      "content_11": "Interação Humano-Computador UI/UX"
+    }
+  },
+  "Experiences": {
+    "title": "Experiência",
+    "content": "Minha carreira profissional em Desenvolvimento de Software e trajetória na programação",
+    "Experience_1": {
+      "date": "Agosto 2024 - Atual",
+      "icon": "Work",
+      "title": "Desenvolvedor Full Stack",
+      "subtitle": "MotorSync",
+      "content_1": "Desenvolvi aplicações completas de gerenciamento de conteúdo para gerir e atualizar sites de revendas automotivas Off-Road CFMOTO em tempo real.",
+      "content_2": "Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos.",
+      "content_3": "Fiz a implementação de funcionalidades para captura de Leads, como contagem de cliques em seções estratégicas da plataforma e cadastro automático de leads integrado com a aplicação de gerenciamento de conteúdo.",
+      "content_4": "Estruturei o SEO dos sites, com geração de metadados estáticos e dinâmicos para títulos, imagens de compartilhamento de links e descrições das páginas.",
+      "content_5": "Realizei a hospedagem e configuração dos domínios e subdomínios dos sites das revendas para integrar com os sistemas desenvolvidos.",
+      "content_6": "Trabalhei na manutenção e sustentação do software.",
+      "content_7": "Desenvolvi componentes de banners, line-up dos produtos, botão flutuante do Whatsapp, galeria de imagens, páginas de erros, paginação, filtros e skeletons.",
+      "content_8": "Fiz a criação e validação de formulários de acessórios, categoria de produtos, banners, campanhas de marketing, configurações gerais e SEO.",
+      "content_9": "Tecnologias e ferramentas utilizadas: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
+      "html_content": "<p>Site dos clientes:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br/pages/revendas\"><b>Link</b></a>"
+    },
+    "Experience_2": {
+      "date": "Fevereiro 2024 - Abril 2024",
+      "icon": "Work",
+      "title": "Desenvolvedor Backend",
+      "subtitle": "Stone",
+      "content_1": "Participei de um projeto temporário para criar uma API focada no processamento de transações PIX. A aplicação também faz a criação de chaves PIX e comparação de arquivos de relatórios das transações realizadas para verificar inconsistências de dados com a API.",
+      "content_2": "Realizei testes de carga utilizando K6 em cenários de alta demanda de requisições e fiz monitoramento do desempenho da aplicação utilizando Prometheus e Grafana.",
+      "content_3": "Implementei serviços de mensageria com RabbitMQ com ênfase em otimizar a performance da comparação de arquivos do relatório de transações.",
+      "content_4": "Criei a modelação dos dados e mapeamento de entidades para tabelas do banco de dados utilizando Entity Framework.",
+      "content_5": "Tecnologias e ferramentas utilizadas: C#, .NET, Entity Framework, Prometheus, Grafana.",
+      "html_content": "<p>Repositório GitHub:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
+    },
+    "Experience_3": {
+      "date": "Março 2023 - Dezembro 2023",
+      "icon": "Course",
+      "title": "Curso de Programação Full Stack",
+      "subtitle": "Driven Education",
+      "content_1": "Formação intensiva (1.450 horas no total) baseada em práticas de mercado com experiência direta em projetos de desenvolvimento de software.",
+      "content_2": "Ementa do curso:",
+      "content_3": "Linguagens de Programação: JavaScript, TypeScript, HTML, CSS",
+      "content_4": "Bibliotecas e Frameworks: React, Node.js, Express, Nest.js, Tailwind, Prisma",
+      "content_5": "Banco de Dados: MongoDB, PostgreSQL, Redis",
+      "content_6": "Testes: Testes unitários e testes de integração com Jest, Cypress e Faker.",
+      "content_7": "Infraestrutura e DevOps: API RESTful, Docker, AWS, CI/CD e GitHub Actions.",
+      "html_content": ""
+    },
+    "Experience_4": {
+      "date": "Março 2020 - Dezembro 2025",
+      "icon": "University",
+      "title": "Bacharelado em Ciência da Computação",
+      "subtitle": "UNIFESP - Universidade Federal de São Paulo",
+      "content_1": "Minha trajetória acadêmica permitiu consolidar meus conhecimentos em Algoritmos, Estrutura de Dados, Desenvolvimento de Sistemas e Banco de Dados os quais aplico na construção de sistemas eficientes e modernos.",
+      "content_2": "Fundamentos do curso:",
+      "content_3": "Lógica de Programação, Projeto e Análise de Algoritmos, Estrutura de Dados, Inteligência Artificial, Redes de Computadores, Engenharia se Software, Interação Humano-Computador UI/UX, Segurança Computacional, Sistemas Operacionais, Sistemas Distribuídos.",
+      "html_content": ""
+    }
+  },
+  "Projects": {
+    "title": "Projetos",
+    "content": "Explore meus projetos mais recentes. Contém projetos do trabalho, freelancer e projetos pessoais",
+    "Project_1": {
+      "title": "CFMOTO Brasil | MotorSync",
+      "description": "Site da CFMOTO Brasil para exibir seus produtos e todas revendas Off-Road disponíveis. Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos. Além disso, fiz o SEO das páginas e criei funcionalidades para captura de leads com cadastro automático na aplicação geradora de conteúdo.",
+      "tag_1": "Trabalho"
+    },
+    "Project_2": {
+      "title": "Site para Advogado",
+      "description": "Site com perfil profissional, visualmente atrativo e responsivo para todos os dispositivos. Construído com objetivo de otimizar a presença digital e divulgação de serviços da área do Direito. Contém páginas para escritóro, áreas de atuação, equipe de advocacia, localização e contato.",
+      "tag_1": "Freelancer"
+    },
+    "Project_3": {
+      "title": "Portfólio",
+      "description": "Portfólio desenvolvido utilizando Next.js, Typescript, Tailwind e componentes UI Shadcn reutilizáveis em toda aplicação. Contém animações, funcionalidade de internacionalização (i18n) para idiomas Inglês e Português, modo noturno e menu de acesso rápido para dispositivos mobile.",
+      "tag_1": "Pessoal"
+    },
+    "Project_4": {
+      "title": "Repúblicas Online",
+      "description": "Plataforma para facilitar o contato direto entre estudantes e anunciantes de repúblicas universitárias utilizando componentes de busca por faculdades, cidades e estados que possuem repúblicas próximas. Possui funcionalidades de filtros personalizados de busca como: distância, preço, categoria (república masculina, feminina, mista) e hábitos de vida.",
+      "tag_1": "Em Desenvolvimento",
+      "tag_2": "Pessoal"
+    }
+  },
+  "Contact": {
+    "title": "Contato",
+    "content": "Tem um projeto em mente ou está interessado nos meus serviços? Entre em contato pelos canais de comunicação"
+  }
+}
