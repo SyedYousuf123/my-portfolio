@@ -32,15 +32,22 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+<<<<<<< HEAD
 !.env.example
+=======
+>>>>>>> d234ea3f521a3ebfc431b19937615cc5c5fe5168
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
+<<<<<<< HEAD
 next-env.d.ts
 
 # scripts
 public/fonts/*
 !public/fonts/brand
+=======
+next-env.d.ts
+>>>>>>> d234ea3f521a3ebfc431b19937615cc5c5fe5168

@@ -1,0 +1,1 @@
+export const Article = (props: React.HTMLAttributes<HTMLElement>) => <article {...props} />;
