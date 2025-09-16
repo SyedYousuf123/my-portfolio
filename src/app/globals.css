@@ -1,12 +1,28 @@
 @import "tailwindcss";
-<<<<<<< HEAD
 @import "tw-animate-css";
 @import '../../public/fonts/generated-fonts.css';
 
+/* Custom Variants */
 @custom-variant dark (&:is(.dark *));
+@custom-variant in2xl (@media (max-width: 1536px));
+@custom-variant inxl (@media (max-width: 1280px));
+@custom-variant inlg (@media (max-width: 1024px));
+@custom-variant inmd (@media (max-width: 768px));
+@custom-variant insm (@media (max-width: 640px));
+@custom-variant inxs (@media (max-width: 333px));
 
+/* Theme setup */
 @theme inline {
   --breakpoint-xsm: 450px;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-dark: var(--dark);
+  --color-light: var(--light);
+  --color-neutral: var(--neutral);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
 
   --color-brand-primary: oklch(0.129 0.042 264.695);
   --color-background: var(--background);
@@ -40,14 +56,23 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+/* Light mode variables */
 :root {
   --radius: 0.625rem;
+
+  --dark: oklch(0.1879 0.0016 17.3);
+  --light: oklch(0.9992 0.0011 197.14);
+  --neutral: oklch(55.6% 0 0);
+  --primary: oklch(0.606 0.25 292.717);
+  --secondary: oklch(0.38 0.189 293.745);
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -81,6 +106,7 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+/* Dark mode overrides */
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -115,60 +141,7 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-  }
-
-  .page-container {
-    @apply flex flex-col items-center justify-center gap-16 p-4 md:p-8 !py-20;
-  }
-
-  .theme-background {
-    @apply bg-gray-100 dark:bg-neutral-800;
-  }
-=======
-
-:root {
-  --dark: oklch(0.1879 0.0016 17.3);
-  --light: oklch(0.9992 0.0011 197.14);
-  --neutral: oklch(55.6% 0 0);
-  --primary: oklch(0.606 0.25 292.717);
-  --secondary: oklch(0.38 0.189 293.745);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-dark: var(--dark);
-    --color-light: var(--light);
-    --color-neutral: var(--neutral);
-    --color-primary: var(--primary);
-    --color-secondary: var(--secondary);
-  }
-}
-
-@theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --color-dark: var(--dark);
-  --color-light: var(--light);
-  --color-neutral: var(--neutral);
-  --color-primary: var(--primary);
-  --color-secondary: var(--secondary);
-}
-
-@custom-variant dark (&:where(.dark, .dark *));
-@custom-variant in2xl (@media (max-width: 1536px));
-@custom-variant inxl (@media (max-width: 1280px));
-@custom-variant inlg (@media (max-width: 1024px));
-@custom-variant inmd (@media (max-width: 768px));
-@custom-variant insm (@media (max-width: 640px));
-@custom-variant inxs (@media (max-width: 333px));
-
+/* Utilities */
 @utility outline-custom {
   @apply outline-offset-4 dark:outline-offset-0 outline-primary;
 }
@@ -209,7 +182,25 @@
   @apply focus-visible:after:scale-100 focus-visible:after:bg-primary;
 }
 
-button {
-  @apply select-none
->>>>>>> d234ea3f521a3ebfc431b19937615cc5c5fe5168
+/* Base layer */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .page-container {
+    @apply flex flex-col items-center justify-center gap-16 p-4 md:p-8 !py-20;
+  }
+
+  .theme-background {
+    @apply bg-gray-100 dark:bg-neutral-800;
+  }
+
+  button {
+    @apply select-none;
+  }
 }
